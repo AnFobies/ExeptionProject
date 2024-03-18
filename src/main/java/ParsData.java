@@ -30,7 +30,7 @@ public class ParsData {
 
             } else if (i.matches("[0-9]+")){
                 dataDict.put("tel", i);
-            } else if (i.matches("[А-Яа-яA-za-z]+")) {
+            } else if (i.matches("[А-Яа-яA-Za-z]+")) {
                 sb.append(i).append(" ");
             } else {
                 try {
